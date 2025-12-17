@@ -7,9 +7,9 @@
 }
 
 main {
-  margin-top: 12px;
-  margin-left: 28px;
-  border-top-left-radius: 6px;
+  margin-top: 32px;
+  margin-left: 73px;
+  border-top-left-radius: 12px;
   height: calc(100dvh - 13px);
   border: 0.1px solid rgb(34,34,37);
   border-bottom: 0;
