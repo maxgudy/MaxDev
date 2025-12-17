@@ -1,0 +1,15 @@
+@font-face {
+  font-family: GgSans;
+  src: url(fonts/gg sans Bold.ttf) format("ttf"),
+       url(fonts/gg sans Regular.ttf) format("ttf"),
+       url(fonts/gg sans Semibold.ttf) format("ttf"),
+       url(fonts/gg sans Medium.ttf) format("ttf");
+}
+
+body {
+  font-family: GgSans, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #121214;
+}

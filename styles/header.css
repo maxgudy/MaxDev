@@ -1,0 +1,48 @@
+@font-face {
+  font-family: GgSans;
+  src: url(fonts/gg sans Bold.ttf) format("ttf"),
+       url(fonts/gg sans Regular.ttf) format("ttf"),
+       url(fonts/gg sans Semibold.ttf) format("ttf"),
+       url(fonts/gg sans Medium.ttf) format("ttf");
+}
+
+header {
+  height: 12px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+}
+
+.spacing-header-div {
+  width: 28px;
+  height: 12px;
+}
+
+.Amigos {
+  border: 0.1px solid white;
+  color: white;
+  font-size: 5px;
+  flex: 1;
+  height: 92%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.3px;
+}
+
+.Amigos img {
+  width: 8px;
+  height: 8px;
+  margin-right: 4px;
+  fill: #FFFFFF;
+
+}
+
+.header-icons {
+  border: 0.1px solid white;
+  width: 50px;
+  height: 92%;
+}

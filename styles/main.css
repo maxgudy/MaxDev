@@ -1,0 +1,17 @@
+@font-face {
+  font-family: GgSans;
+  src: url(fonts/gg sans Bold.ttf) format("ttf"),
+       url(fonts/gg sans Regular.ttf) format("ttf"),
+       url(fonts/gg sans Semibold.ttf) format("ttf"),
+       url(fonts/gg sans Medium.ttf) format("ttf");
+}
+
+main {
+  margin-top: 12px;
+  margin-left: 28px;
+  border-top-left-radius: 6px;
+  height: calc(100dvh - 13px);
+  border: 0.1px solid rgb(34,34,37);
+  border-bottom: 0;
+  border-right: 0;
+}
