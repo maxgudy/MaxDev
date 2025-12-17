@@ -7,9 +7,93 @@
 }
 
 nav {
-  width: 73px;
+  width: 72px;
   position: fixed;
   bottom: 0;
   top: 32px;
   left: 0;
+  display: flex;
+  flex-direction: column;
+  column-gap: 8px;
+  row-gap: 8px;
+  align-items: center;
+}
+
+.home {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.HomeButton {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(88, 101, 242);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.servers {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 8px;
+  row-gap: 8px;
+}
+
+.server {
+  width: 40px;
+  height: 40px;
+  background-color: #97979f1f;
+  border-radius: 14px;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.spacediv {
+  background-color: #97979f1f;
+  border-bottom: 0px ;
+  width: 32px;
+  height: 1px;
+}
+
+.serverwrapper {
+  position: relative;
+}
+
+.notification {
+  position: absolute;
+  background-color: white;
+  height: 8px;
+  width: 8px;
+  border-radius: 5px;
+  left: -20px;
+  top: 16px;
+  bottom: 16px;
+}
+
+.homewrapper {
+  position: relative;
+}
+
+.statusat {
+  position: absolute;
+  background-color: white;
+  height: 40px;
+  width: 8px;
+  border-radius: 5px;
+  left: -20px;
+  top: 0;
+  bottom: 0;
 }
